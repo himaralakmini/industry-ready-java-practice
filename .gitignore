@@ -2,3 +2,6 @@ out/
 .idea/
 *.class
 *.iml
+
+# OS files
+.DS_Store
