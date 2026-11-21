@@ -1,2 +1,3 @@
-# industry-ready-java-practice
-Java practice projects
+
+| 01 | Smart Discount Calculator |
+| 02 | Text Analyzer | 
