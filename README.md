@@ -1,10 +1,7 @@
 # Industry-Ready Java Practice Projects
 
-## Projects Index
+## Projects
+1. Smart Discount Calculator (`01-smart-discount-calculator`)
+2. Text Analyzer (`02-Text Analyzer`)
+3. Student Result Processor (`03-student-result-processor`)
 
-| # | Project Name | Folder | Status |
-| :--- | :--- | :--- | :--- |
-| 01 | Smart Discount Calculator | [`01-smart-discount-calculator`](./01-smart-discount-calculator) | Completed |
-| 02 | Text Analyzer | [`02-Text Analyzer`](./02-Text%20Analyzer) | Completed |
-
-*Last updated: November 2026*
