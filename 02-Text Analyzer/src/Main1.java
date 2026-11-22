@@ -35,8 +35,7 @@ public class Main1{
         for (int i = 0; i < sentence.length(); i++) {
             char ch = sentence.charAt(i);
 
-            if (ch == 'a' || ch == 'e' || ch == 'i'
-                    || ch == 'o' || ch == 'u') {
+            if (ch == 'a' || ch == 'e' || ch == 'i'|| ch == 'o' || ch == 'u') {
                 count++;
             }
         }
@@ -123,11 +122,9 @@ public class Main1{
 
         System.out.println("Word count: " + countWords(sentence));
 
-        System.out.println("All characters: "
-                + countAllCharacters(sentence));
+        System.out.println("All characters: " + countAllCharacters(sentence));
 
-        System.out.println("Characters without spaces: "
-                + countCharactersWithoutSpaces(sentence));
+        System.out.println("Characters without spaces: "+ countCharactersWithoutSpaces(sentence));
 
         System.out.println("Vowel count: " + countVowels(sentence));
 
@@ -135,8 +132,7 @@ public class Main1{
 
         System.out.println("Shortest word: " + findShortestWord(sentence));
 
-        System.out.println("Occurrences of '" + searchChar + "': "
-                + countCharacter(sentence, searchChar));
+        System.out.println("Occurrences of '" + searchChar + "': "+ countCharacter(sentence, searchChar));
 
         input.close();
     }
