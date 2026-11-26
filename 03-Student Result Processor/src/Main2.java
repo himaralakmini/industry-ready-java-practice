@@ -61,3 +61,25 @@ public class Main2 {
 
         return "PASS";
     }
+
+    // Print the final result summary
+    public static void displaySummary(String name, int[] marks, int total, double average,int highest, int lowest, String grade, String status) {
+        System.out.println("\n--- Result Summary ---");
+        System.out.println("Name    : " + name);
+        System.out.print("Marks   : ");
+        for (int i = 0; i < marks.length; i++) {
+            System.out.print(marks[i]);
+            if (i < marks.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        System.out.println("Total   : " + total);
+        System.out.printf("Average : %.2f%n", average);
+        System.out.println("Highest : " + highest);
+        System.out.println("Lowest  : " + lowest);
+        System.out.println("Grade   : " + grade);
+        System.out.println("Status  : " + status);
+        System.out.println("----------------------");
+    }
+}
