@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main1{
+public class Main2{
 
     public static int countWords(String sentence){
         String trimmed = sentence.trim();
